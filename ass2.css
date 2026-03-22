@@ -1,0 +1,99 @@
+
+nav{
+    background-color: gray;
+    color: rgb(120, 10, 120);
+    font-weight: 750;
+    font-family: sans-serif;
+}
+/* -------transiton----------------- */
+
+#a div{
+    transition-duration:2s;
+}
+#a div:hover{
+color: red;
+background: black;
+font-weight: 900px;
+font-size: larger;
+border: 1px solid yellow;
+border-radius:5px;
+}
+
+figcaption:hover{
+
+color: rgb(148, 252, 252);
+background: rgb(69, 241, 66);
+ font-weight: bolder;
+font-size: large;
+border-radius:10px;
+} 
+
+/* -------------------------------------- */
+#a{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    height: 650px;
+    width: 100%;
+    background-color: gray;
+}
+aside{
+
+    height: 635px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+#b{
+    position: relative;
+    left:-30px;
+    height: 250px;
+    width: 250px;
+
+}
+#c{
+    position: relative;
+    left: -30px;
+    height: 250px;
+    width: 250px;
+}
+aside figure:last-child{
+  position: relative;
+  top: 20px;
+
+}
+figcaption{
+    margin-left:-30px ;
+    margin-top: 10px;
+    transition-duration: 2s;
+}
+/* ---------------------------------- */
+#f{
+    height: 650px;
+    width: 900px;
+    position:absolute;
+    left: 350px;
+}
+
+#f p:first-of-type{
+   text-transform: uppercase;
+}
+#f img{
+    height: 350px;
+    width: 100%;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius:10px;
+    box-shadow: 3px 4px blur red;
+}
+
+button:hover{
+    color: red;
+    background-color: yellow;
+}
